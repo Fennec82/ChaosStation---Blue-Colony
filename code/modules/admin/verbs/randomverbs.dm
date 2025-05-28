@@ -98,7 +98,8 @@
 	log_admin("SubtlePM: [key_name(usr)] -> [key_name(M)] : [msg]")
 	message_admins("<font color='blue'><B>SubtleMessage: [key_name_admin(usr)] -> [key_name_admin(M)] : [msg]</B></font>", 1)
 	feedback_add_details("admin_verb","SMS") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
-*/
+
+/*
 /client/proc/cmd_admin_headset_message(mob/M as mob in mob_list)
 	set category = "Special Verbs"
 	set name = "Headset Message"
@@ -132,7 +133,7 @@
 	to_chat(H, "You hear something crackle in your ears for a moment before a voice speaks.  \"Please stand by for a message from [sender == "Mercenary" ? "your benefactor" : "Central Communication"].  Message as follows[sender == "Mercenary" ? ", agent." : ":"] <B>[input].</B> Message ends.\"")
 
 	feedback_add_details("admin_verb", "Headset Message") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
-/*
+*/
 
 /client/proc/cmd_admin_world_narrate() // Allows administrators to fluff events a little easier -- TLE
 	set category = "Special Verbs"
