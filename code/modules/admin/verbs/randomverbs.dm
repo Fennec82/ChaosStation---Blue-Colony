@@ -129,7 +129,7 @@
 		return
 
 	message_admins("[key_name(usr)] replied to [key_name(H)]'s [sender] message with: \"[input]\"")
-	to_chat(H, "You hear something crackle in your ears for a moment before a voice speaks.  \"Please stand by for a message from [sender == \"Mercenary\" ? \"your benefactor\" : \"Central Communication\"].  Message as follows[sender == "Mercenary" ? ", agent." : ":"] <B>[input].</B> Message ends.\"")
+	to_chat(H, "You hear something crackle in your ears for a moment before a voice speaks.  \"Please stand by for a message from [sender == \"Mercenary"\ ? \"your benefactor"\ : \"Central Communication"\].  Message as follows[sender == "Mercenary" ? ", agent." : ":"] <B>[input].</B> Message ends.\"")
 
 	feedback_add_details("admin_verb", "Headset Message") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
