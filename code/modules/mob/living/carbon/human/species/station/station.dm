@@ -94,7 +94,8 @@
 
 	body_temperature = T20C
 
-	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED
+//	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED
+	spawn_flags = SPECIES_CAN_JOIN //Chaosstation change: Enable Xenos 
 	appearance_flags = HAS_HAIR_COLOR | HAS_LIPS | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	flesh_color = "#34AF10"
@@ -198,7 +199,8 @@
 
 	primitive_form = SPECIES_MONKEY_TAJ
 
-	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED
+//	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED
+	spawn_flags = SPECIES_CAN_JOIN //Chaosstation change: Enable Xenos
 	appearance_flags = HAS_HAIR_COLOR | HAS_LIPS | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	flesh_color = "#AFA59E"
@@ -263,7 +265,8 @@
 
 	ambiguous_genders = TRUE
 
-	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED
+//	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_WHITELISTED
+	spawn_flags = SPECIES_CAN_JOIN //Chaosstation change: Enable Xenos
 	appearance_flags = HAS_HAIR_COLOR | HAS_LIPS | HAS_UNDERWEAR | HAS_SKIN_COLOR
 
 	flesh_color = "#8CD7A3"

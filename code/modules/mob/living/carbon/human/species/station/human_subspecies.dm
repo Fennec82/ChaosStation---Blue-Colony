@@ -96,7 +96,7 @@
 	blurb = "Ook ook."
 	icobase = 'icons/mob/human_races/subspecies/r_upliftedchimp.dmi'
 */
-
+/* //No children on Chaosstation
 /datum/species/human/teen
 	name = "Human Adolescent"
 	name_plural = "Humans Adolescents"
@@ -157,3 +157,4 @@
 	thin_calories = KID_WEIGHT_THIN
 	fat_calories = KID_WEIGHT_FAT
 	obese_calories = KID_WEIGHT_OBESE
+*/
